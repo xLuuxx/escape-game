@@ -80,7 +80,7 @@ body {
 .officePicture {
     width: 100%;
     height: 99vh;
-    background-image: url("/../public/assets/images/room_inside.jpg");
+    background-image: url("/escape-game/public/assets/images/room_inside.jpg");
     background-size: contain;
     background-position: left;
     background-repeat: no-repeat;

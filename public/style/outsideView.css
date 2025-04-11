@@ -24,7 +24,7 @@ body {
 .housePicture {
     width: 107%;
     height: 103vh;
-    background-image: url("../assets/images/house_outside.jpg");
+    background-image: url("/escape-game/assets/images/house_outside.jpg");
     background-size: contain;
     background-position: left;
     background-repeat: no-repeat;
