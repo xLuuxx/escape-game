@@ -1,4 +1,4 @@
-// To start the json server and make work the leaderboard, run this command : json-server --watch data/leaderboard.json --port 3000
+// To start the json server and make work the leaderboard, run this command : npx json-server --watch data/leaderboard.json --port 3000 -s 
 
 const playersContainer = document.getElementById('players-container');
 
@@ -33,7 +33,7 @@ function populateLeaderboard(data) {
     });
 }
 
-fetch('http://localhost:3000/users')
+fetch('/users')
     .then(response => {
         if (!response.ok) {
             throw new Error(`Erreur HTTP: ${response.status}`);

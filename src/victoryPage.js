@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
             timesLeft: timeLeft
         };
 
-        fetch('http://localhost:3000/users', {
+        fetch('/users', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
