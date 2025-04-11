@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "id": "5e05",
+      "username": "raph",
+      "timesLeft": 21
+    },
+    {
+      "id": "c12a",
+      "username": "luu",
+      "timesLeft": 561
+    },
+    {
+      "id": "ceef",
+      "username": "mathieu",
+      "timesLeft": 83
+    },
+    {
+      "id": "7e5d",
+      "username": "K",
+      "timesLeft": 32
+    },
+    {
+      "id": "4664",
+      "username": "devex",
+      "timesLeft": 273
+    },
+    {
+      "id": "3db2",
+      "username": "mona",
+      "timesLeft": 244
+    },
+    {
+      "id": "5937",
+      "username": "ji",
+      "timesLeft": 497
+    },
+    {
+      "id": "a115",
+      "username": "Laurine",
+      "timesLeft": 547
+    }
+  ]
+}

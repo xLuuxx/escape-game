@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="/public/style/homepage.css">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bienvenue</title>
+</head>
+<body>
+<img src="/public/assets/images/homepage-background.png" id="background-image" alt="background">
+<div class= "info">
+    <div class="header">
+        <h1>L'affaire Jacques le Fendeur.</h1>
+    </div>
+<div class="synopsis">
+    <p>Vous êtes le célèbre détective <strong>Semloh</strong> et vous êtes chargé de reprendre l’affaire de l’inspecteur <strong>Tairomy</strong> sur un tueur en série masqué nommé <strong>Jaques le Fendeur</strong>.
+        L’inspecteur était sur le point de découvrir <strong>la véritable identité</strong> du tueur lorsqu’il a disparu,
+        à vous de <strong>terminer le travail qu’il a commencé.</strong>
+        Vous commencez par récolter les indices qu’il avait réunis en vous rendant chez lui.</p>
+
+    <label for="username">Entrez votre nom de joueur :</label>
+    <input type="text" id="username" name="username" required>
+    <button onclick="saveUsername()">Commencer</button>
+</div>
+
+    <button onclick="location.href='leaderboard.html'" class="button">Classement</button>
+    <button onclick="loadGame()" class="button">Charger une sauvegarde</button></div>
+
+<script src="/src/homepage.js" type="module"></script>
+<script src="/src/storage.js" type="module"></script>
+
+
+</body>
+</html>
