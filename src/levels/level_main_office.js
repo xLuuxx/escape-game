@@ -171,8 +171,7 @@ function intializeTips() {
             tips.innerHTML = `
                 <div class="tipsPopup-content">
                     <span class="tipsClose-popup">&times;</span>
-                    <p>Il faut trouver les énigmes et les post-it correspondant pour les résoudre.</p>
-                </div>
+<p>Il faut trouver les deux mots de passe et les indices correspondant pour les résoudre.</p>                </div>
             `;
 
             tips.querySelector('.tipsClose-popup').addEventListener('click', () => {

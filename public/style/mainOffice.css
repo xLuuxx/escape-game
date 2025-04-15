@@ -261,7 +261,7 @@ body {
     right: 60px;
     top: 90px;
     cursor: pointer;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .post-it-notebook-popup {
@@ -287,7 +287,7 @@ body {
     right: 224px;
     top: 33px;
     cursor: pointer;
-    font-size: 15px;
+    font-size: 30px;
 }
 
 .computer-popup {
@@ -318,7 +318,7 @@ body {
     right: 25px;
     top: 28px;
     cursor: pointer;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .computer-popup img {
@@ -351,7 +351,7 @@ body {
     right: 10px;
     top: 5px;
     cursor: pointer;
-    font-size: 24px;
+    font-size: 30px;
 }
 
 .drawer-popup img {
@@ -397,5 +397,5 @@ body {
     right: 10px;
     top: 5px;
     cursor: pointer;
-    font-size: 24px;
+    font-size: 30px;
 }

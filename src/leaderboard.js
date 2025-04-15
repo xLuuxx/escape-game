@@ -9,7 +9,9 @@ function formatTime(seconds) {
 function populateLeaderboard(data) {
     const sortedUsers = data.sort((a, b) => b.timesLeft - a.timesLeft);
 
-    sortedUsers.forEach((user, index) => {
+    const topUsers = sortedUsers.slice(0, 5);
+
+    topUsers.forEach((user, index) => {
         const playerDiv = document.createElement('div');
         playerDiv.classList.add('player');
 
